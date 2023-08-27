@@ -1,0 +1,42 @@
+.col-xs-12 {
+    padding:0;
+}
+
+.fa-fw {
+    width: 35em;
+}
+
+.wedding-pic-wrapper {
+    padding: 5px;
+}
+
+.wedding-pics-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+ background-image: url("cmu.jpg");
+ background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.link-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.wedding-site-link{
+    color: #009af7;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 4px 3px 2px black;
+}
