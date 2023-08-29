@@ -9,6 +9,9 @@
 .wedding-pic-wrapper {
   padding: 5px;
 }
+.wedding-pic-wrapper .wedding-img:hover {
+  box-shadow: 0px 0px 20px 6px #1889cf;
+}
 
 .wedding-pics-section {
   display: flex;
@@ -22,10 +25,16 @@
 
 body {
   background-image: url("cmu.jpg");
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-size: contain; /* Resize the background image to cover the entire container */
+  background-repeat: repeat-y;
 }
 
+@media (min-width: 992px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 .link-container {
   display: flex;
   flex-direction: column;
