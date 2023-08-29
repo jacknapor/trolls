@@ -11,6 +11,7 @@
 }
 .wedding-pic-wrapper .wedding-img:hover {
   box-shadow: 0px 0px 20px 6px #1889cf;
+  cursor: pointer;
 }
 
 .wedding-pics-section {
